@@ -20,7 +20,6 @@
     background-color: #B7D99C;
     color: green;
 }
-
 body{
     background-color: #f0ebd8;
 }
@@ -57,7 +56,6 @@ body{
     justify-content: space-evenly;
     font-weight: bolder;
 }
-
 .right{
      width: 48%;
      color: green;
@@ -68,7 +66,6 @@ body{
 .border:hover{
     text-decoration: underline;
 }
-
 .nav-one{
     font-size: 1.1rem;
     color: green;

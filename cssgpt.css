@@ -1,0 +1,90 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+}
+
+.sidebar {
+    width: 200px;
+    background-color: #B7d99c;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.sidebar-button {
+    padding: 15px;
+    margin: 10px 0;
+    background-color: #B7d99c;
+    color: rgb(10, 10, 10);
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    text-align: center;
+}
+
+.sidebar-button:hover {
+    background-color: #F0EBD8;
+}
+
+.content {
+    flex-grow: 1;
+    padding: 20px;
+    background-color: #F0EBD8;
+}
+
+.content-section {
+    display: none;
+}
+
+#accountDetails, #yourSkin {
+    display: block;
+}
+
+h2 {
+    font-size: 24px;
+    color: #0a9c22;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #0a9c22;
+}
+
+input[type="text"], input[type="password"], input[type="date"], select, textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 20px;
+    border: 1px solid #049315;
+    border-radius: 4px;
+}
+
+textarea {
+    resize: none;
+}
+
+.update-button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 4px;
+    margin-top: 10px;
+}
+
+.update-button:hover {
+    background-color: #45a049;
+}
+.back{
+    padding-top: 40px;
+}

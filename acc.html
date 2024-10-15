@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Account MPR</title>
+        <link rel="stylesheet" href="acc.css">
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+        </head>
+        <body>
+            <div class="container">
+                <div class="leftbox">
+                    <nav>
+                        <a onclick="tabs(0)" class="tab active">
+                            <i class='bx bx-user'></i>
+                        </a>
+                        <a onclick="tabs(1)" class="tab active">
+                            <i class='bx bx-message-rounded'></i>
+                         </a>
+                        <a onclick="tabs(2)" class="tab active">
+                            <i class='bx bx-user'></i>
+                        </a>
+                        
+                    </nav>
+                </div>
+                <div class="right">
+                    <div class="profile">
+                        <div class="input"></div>
+                        <h1> Your info</h1>
+                            <h2>User Name</h2>
+                            <input type="text" placeholder="User Name" required>
+                            <h2>Age</h2>
+                            <input type="text" placeholder="enter your age" required>
+                            <h2>Skin Type</h2>
+                            <div class="dropdown">
+                                <div class="select">
+                                    <span class="selected">Dry</span>
+                                    <div class="c"></div>
+                                </div>
+                                <ul class="menu">
+                                    <li class="active">Dry</li>
+                                    <li>Oily</li>
+                                    <li>Agne</li>
+                                    <li>Combinaton</li>
+                                    <li>Normal</li>
+                                    <li>Sensitive</li>
+                                </ul>
+                            </div>
+                            <h2>Allergy (If any)</h2>
+                            <input type="text" placeholder="enter your allergy" required>
+                            <h2>Email id</h2>
+                            <input type="text" placeholder="enter email id" required>
+
+                    </div>
+
+                </div>
+            </div>
+
+        </body>

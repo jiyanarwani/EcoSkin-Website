@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Account</title>
+    <link rel="stylesheet" href="css.css">
+    
+</head>
+<body>
+
+    <div class="container">
+        <div class="sidebar">
+            <button id="accountDetailsBtn" class="sidebar-button">Account Details</button>
+            <button id="yourSkinBtn" class="sidebar-button">Your Skin</button>
+            <button id="postBtn" class="sidebar-button">Posts</button>
+            <button id="backBtn" class="sidebar-button">Back</button>
+        </div>
+
+        <div class="content">
+            <div id="accountDetails" class="content-section">
+                <h2>Account Details</h2>
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username"><br><br>
+            
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password"><br><br>
+            
+                <label for="dob">Date of Birth:</label>
+                <input type="date" id="dob" name="dob"><br><br>
+            
+                <label for="nationality">Nationality:</label>
+                <input type="text" id="nationality" name="nationality"><br><br>
+            
+                <label for="gender">Gender:</label>
+                <select id="gender" name="gender">
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                    <option value="other">Other</option>
+                </select><br><br>
+            
+                <button id="updateAccountDetailsBtn" class="update-button">Update Account Details</button>
+            </div>
+            
+            <div id="yourSkin" class="content-section">
+                <h2>Your Skin</h2>
+                <label for="skinType">Skin Type:</label>
+                <select id="skinType" name="skinType">
+                    <option value="oily">Oily</option>
+                    <option value="dry">Dry</option>
+                    <option value="sensitive">Sensitive</option>
+                    <option value="combination">Combination</option>
+                </select><br><br>
+            
+                <label for="allergies">Skin Allergies:</label>
+                <textarea id="allergies" name="allergies" rows="4" cols="50"></textarea><br><br>
+            
+                <button id="updateSkinDetailsBtn" class="update-button">Update Skin Details</button>
+            </div>
+            
+            <div id="post" class="content-section">
+                <h2>Posts</h2>
+                
+                    
+                    <div class="post-item">
+                        <p class="post-username">User: Jiya</p>
+                        <p class="post-text">ive used Gram flour honey n lemon for my oily skin as scrub..i can see the results</p>
+                        <p class="post-date">Posted on: 2024-10-15, 10:15 AM</p>
+                    </div>
+                
+                    <div class="post-item">
+                        <p class="post-username">User: Alok</p>
+                        <p class="post-text">Raw milk and aloevera! best combo for dry skin</p>
+                        <p class="post-date">Posted on: 2024-10-14, 08:45 PM</p>
+                    </div>
+                
+                    <div class="post-item">
+                        <p class="post-username">User: Vidhi</p>
+                        <p class="post-text">My first post! excited to share my journey</p>
+                        <p class="post-date">Posted on: 2024-10-13, 02:30 PM</p>
+                    </div>
+                </div>
+                
+                
+            </div>
+            <div id="back" class="content-section"></div>
+            
+            
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
