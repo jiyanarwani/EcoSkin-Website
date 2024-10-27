@@ -13,11 +13,13 @@ body {
 .sidebar {
     width: 200px;
     background-color: #B7d99c;
-    padding: 20px;
+    padding: 40px;
     display: flex;
     flex-direction: column;
+    min-height: 100vh;
     
 }
+
 
 .sidebar-button {
     padding: 15px;
@@ -33,18 +35,34 @@ body {
 .sidebar-button:hover {
     background-color: #F0EBD8;
 }
+.sideback-button{
+    padding-top: 270px;
+    margin: 10px 0;
+    background-color: #B7d99c;
+    color: rgb(10, 10, 10);
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    text-align: center;
+
+}
+.sideback-button:hover {
+   color: #22722d;
+}
 
 .content {
     flex-grow: 1;
     padding: 20px;
     background-color: #F0EBD8;
+    min-height: 115vh; 
+    box-sizing: border-box;
 }
 
 .content-section {
     display: none;
 }
 
-#accountDetails, #yourSkin {
+#accountDetails {
     display: block;
 }
 
@@ -60,7 +78,7 @@ label {
 }
 
 input[type="text"], input[type="password"], input[type="date"], select, textarea {
-    width: 100%;
+    width: 70%;
     padding: 8px;
     margin-bottom: 20px;
     border: 1px solid #049315;
@@ -85,9 +103,7 @@ textarea {
 .update-button:hover {
     background-color: #45a049;
 }
-.back{
-    padding-top: 40px;
-}
+
 .post-item {
     background-color: #fff;
     border: 1px solid #ccc;
